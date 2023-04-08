@@ -42,3 +42,15 @@ npm notice
 
 - vue-router Navigation Guards
   - https://router.vuejs.org/guide/advanced/navigation-guards.html
+
+- axios
+  - general
+    - https://axios-http.com/docs/intro
+    - https://azukiazusa.dev/blog/axios/
+ - withCredentials(axios に Cookie を送受信させたいとき)
+   - https://blog.sat.ne.jp/2022/09/09/spa-cors-cookie/
+
+
+- vue.js + Spring Boot 認証
+  - https://www.distant-view.co.jp/column/6294/
+  - https://www.youtube.com/watch?v=8dH-KhIpqd4
