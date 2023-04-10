@@ -4,4 +4,8 @@ const getFoods = function (): object {
         return client.get('/food/list')
     }
 
-export { getFoods }
+const getFoodDetail = function (foodId: string) {
+    return client.get('/food/detail/' + foodId)
+}
+
+export { getFoods, getFoodDetail }

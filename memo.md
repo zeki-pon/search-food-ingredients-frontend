@@ -54,3 +54,9 @@ npm notice
 - vue.js + Spring Boot 認証
   - https://www.distant-view.co.jp/column/6294/
   - https://www.youtube.com/watch?v=8dH-KhIpqd4
+
+
+- 残作業
+  - 各TODO
+  - style定義
+  - テストコード追加
