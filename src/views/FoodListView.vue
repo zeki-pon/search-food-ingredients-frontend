@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>食品一覧</h1>
+    <button v-on:click="$router.push('/food/register')">新規作成</button>
     <table border="1" align="center">
       <thead>
         <tr>
@@ -33,8 +34,6 @@ export default defineComponent({
     getFoods().then((res: object) => this.foods = res.data.foods)
   },
   methods: {
-    login: function() {
-    }
   }
 })
 </script>

@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LoginView from '../views/LoginView.vue'
 import FoodListView from '../views/FoodListView.vue'
 import FoodDetailView from '../views/FoodDetailView.vue'
+import FoodRegisterView from '../views/FoodRegisterView.vue'
+import FoodRegisterCompletedView from '../views/FoodRegisterCompletedView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +22,16 @@ const router = createRouter({
       path: '/food/detail/:foodId',
       name: 'FoodDetail',
       component: FoodDetailView
+    },
+    {
+      path: '/food/register',
+      name: 'FoodRegister',
+      component: FoodRegisterView
+    },
+    {
+      path: '/food/register/completed',
+      name: 'FoodRegisterCompleted',
+      component: FoodRegisterCompletedView
     },
   ]
 })
