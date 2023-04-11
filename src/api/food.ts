@@ -16,4 +16,8 @@ const updateFood = function (food: object) {
     return client.put('food/update', food)
 }
 
-export { getFoods, getFoodDetail, registerFood, updateFood }
+const deleteFood = function (foodId: string) {
+    return client.delete('/food/delete/' + foodId)
+}
+
+export { getFoods, getFoodDetail, registerFood, updateFood, deleteFood }

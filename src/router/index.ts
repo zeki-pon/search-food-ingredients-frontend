@@ -6,6 +6,7 @@ import FoodRegisterView from '../views/FoodRegisterView.vue'
 import FoodRegisterCompletedView from '../views/FoodRegisterCompletedView.vue'
 import FoodUpdateView from '../views/FoodUpdateView.vue'
 import FoodUpdateCompletedView from '../views/FoodUpdateCompletedView.vue'
+import FoodDeleteCompletedView from '../views/FoodDeleteCompletedView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/food/update/completed',
       name: 'FoodUpdateCompleted',
       component: FoodUpdateCompletedView
+    },
+    {
+      path: '/food/delete/completed',
+      name: 'FoodDeleteCompleted',
+      component: FoodDeleteCompletedView
     },
   ]
 })
