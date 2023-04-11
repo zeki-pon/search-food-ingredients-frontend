@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>食品詳細</h1>
+    <button v-on:click="$router.push('/food/update/' + food.id)">変更</button>
     <table border="1" align="center">
       <tbody> 
         <tr v-for="key, index in foodObjKey">
@@ -29,10 +30,6 @@ export default defineComponent({
     if (!foodId) return
     getFoodDetail(foodId).then((res: object) => {this.food = res.data})
   },
-  methods: {
-    login: function() {
-    }
-  }
 })
 </script>
 

@@ -60,3 +60,4 @@ npm notice
   - 各TODO
   - style定義
   - テストコード追加
+  - componentに切り出す
